@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <main>
+        <section class="score">
+            <div class="score__item circle">
+                <div class="score__icon">
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="score__number"><strong>0</strong> wins</div>
+            </div>
+            
+            <div class="score__item draw">
+                <div class="score__icon">
+                    <i class="fas fa-balance-scale"></i>
+                </div>
+                <div class="score__number"><strong>0</strong> wins</div>
+            </div>
+            <div class="score__item cross">
+                <div class="score__icon">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="score__number"><strong>0</strong> wins</div>
+            </div>
+        </section>
+
+        <section class="grid">
+            <div><button tabindex="-1"></button></div>
+            <div><button tabindex="-1"></button></div>
+            <div><button tabindex="-1"></button></div>
+            <div><button tabindex="-1"></button></div>
+            <div><button tabindex="-1"></button></div>
+            <div><button tabindex="-1"></button></div>
+            <div><button tabindex="-1"></button></div>
+            <div><button tabindex="-1"></button></div>
+            <div><button tabindex="-1"></button></div>
+        </section>
+
+        <section class="bottom">
+            <button class="new-game"><i class="fas fa-sync"></i></button>
+            <div class="active-user">
+                <i class="fas fa-times cross-color"></i>
+                <i class="far fa-circle circle-color"></i>
+            </div>
+        </section>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
